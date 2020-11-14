@@ -1,0 +1,24 @@
+body { overflow: hidden; }
+img { 
+	width: 100vw;
+	height: 100vh;
+}
+.navigation { margin-top: -15rem; }
+.icons--default{ color: #ffffff; }
+.list-images, .col-sm-12 {
+	margin: 0;
+	padding: 0;
+}
+.fa-chevron-left {
+	position: absolute;
+	top: 50vh;
+	left: 5vw;
+	font-size: 5em;
+}
+.fa-chevron-right {
+	position: absolute;
+	top: 50vh;
+	right: 5vw;
+	font-size: 5em;
+}
+.fa-chevron-left:hover, .fa-chevron-right:hover, .icons--active { opacity: 0.5; }
